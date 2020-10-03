@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: sans-serif;
+}
+
+body {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+div {
+    display: block;
+}
+
+.site-content {
+    width: 96%;
+}
+
+.header {
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 5px solid #f2f2f2;
+    height: 100px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 30px;
+    display: flex;
+    position: relative;
+}
+
+nav {
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: left;
+    float: left;
+    max-width: 100%;
+    width: 30%;
+    display: block;
+}
+
+nav .project-title:first-child, nav .gallery-title:first-child, nav .page-title:first-child, nav .link-title:first-child {
+    padding-left: 0 !important;
+}
+
+nav .page-title, nav .gallery-title, nav .project-title, nav .link-title, nav .social, nav .social li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav .gallery-title {
+padding-right: 20px;
+}
+
+nav .gallery-title a.active {
+    color: #191919;
+    font-style: normal;
+    font-weight: 500;
+}
+
+nav .gallery-title a {
+    color: #999999;
+    font-family: fbft;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.link-transition a {
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    background: transparent;
+}
+
+
+
+
