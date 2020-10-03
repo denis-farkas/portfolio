@@ -23,7 +23,7 @@ div {
     width: 96%;
 }
 
-.header {
+header {
     align-items: center;
     background-color: #ffffff;
     border-bottom: 5px solid #f2f2f2;
@@ -34,6 +34,7 @@ div {
     padding-top: 30px;
     display: flex;
     position: relative;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -46,12 +47,12 @@ nav {
     display: block;
 }
 
-nav .project-title:first-child, nav .gallery-title:first-child, nav .page-title:first-child, nav .link-title:first-child {
+nav .project-title:first-child, nav .gallery-title:first-child, nav .page-title:first-child, nav .logo:first-child {
     padding-left: 0 !important;
 }
 
 nav .page-title, nav .gallery-title, nav .project-title, nav .link-title, nav .social, nav .social li {
-    display: inline-block;
+    display: inline-flex ;
     vertical-align: middle;
 }
 
@@ -72,20 +73,55 @@ nav .gallery-title a {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-}
-
-.link-transition a {
-    transition: background 0.2s ease, color 0.2s ease;
-}
-
-a {
     text-decoration: none;
 }
 
-a {
-    background: transparent;
+nav .page-title {
+  padding-right: 20px;
+  }
+
+nav .page-title a:hover {
+    color: #191919;
+    transition:  color 0.2s ease;
 }
 
+nav .page-title a {
+  color: #999999;
+  font-family: fbft;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: fbft;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 0px 5%;
+  text-align: center;
+  width:40%;
+}
+
+.logo, .logo a {
+  clear: both;
+  overflow-wrap: break-word ;
+  color: rgb(25, 25, 25);
+  text-decoration: none;
+}
+
+.preserve-whitespace {
+  white-space: pre-wrap;
+}
+
+.pf-nav {
+width: 30%;
+text-align: right;
+font-size: 0px;
+}
 
 
 
