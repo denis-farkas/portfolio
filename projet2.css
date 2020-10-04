@@ -227,10 +227,6 @@ li {
 
 }
 
-a{
-    text-decoration: none;
-}
-
 .project-section .technologies-title {
     margin-top: 2em;
 }
@@ -253,6 +249,10 @@ a{
     margin-bottom: 1em;
 }
 
-img, legend {
+img {
     border: 0;
+}
+
+a{
+    text-decoration: none;
 }
